@@ -21,11 +21,9 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-  
 }
 
 .container {
@@ -170,11 +168,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.incomplete-tasks__edit-mode input[type="text"] {
+.incomplete-tasks__edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.incomplete-tasks__edit-mode label {
+.incomplete-tasks__edit-mode label {
   display: none;
 }
